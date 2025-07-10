@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projets</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <style>
+    body {
+      background-color: #121212;
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .bg-dark-custom {
+      background-color: #1e1e1e;
+    }
+    .text-red-custom {
+      color: #f4373c;
+    }
+    .btn-red-custom {
+      background-color: #f4373c;
+      border: none;
+    }
+    .btn-red-custom:hover,
+    .btn-red-custom:focus {
+      background-color: #c82c31;
+    }
+    .section-header {
+      background-color: #f4373c;
+      color: white;
+      border-radius: 0 20px 20px 0;
+      padding: 6px 20px;
+      font-weight: 600;
+      width: fit-content;
+      margin-bottom: 1.2rem;
+    }
+    .icon {
+      color: #f4373c;
+      margin-right: 8px;
+      font-size: 1.25rem;
+      vertical-align: middle;
+    }
+    a.text-red-custom:hover {
+      color: #c82c31 !important;
+      text-decoration: none;
+    }
+    @media (max-width: 992px) {
+      .section-header {
+        border-radius: 0 0 20px 20px;
+        padding: 6px 15px;
+      }
+    }
+  </style>
+</head>
+<body class="min-vh-100 d-flex flex-column">
+  <header class="bg-dark-custom py-3 mb-4 shadow-sm">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <a class="navbar-brand text-red-custom fw-bold d-flex align-items-center" href="#">
+          <i class="bi bi-cpu"></i>
+          <span class="ms-2">ADJ</span>
+        </a>
+      </div>
+      <a href="index.html" class="btn btn-outline-light">Retour au CV</a>
+    </div>
+  </header>
+  <main class="container flex-grow-1">
+    <div class="section-header">Projets</div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="bg-dark-custom rounded shadow-sm p-4 h-100">
+          <h5 class="text-red-custom mb-2"><i class="bi bi-folder-fill icon"></i> Portfolio Web</h5>
+          <p>Un site portfolio personnel responsive pour présenter mes compétences et réalisations.</p>
+          <p class="mb-2"><strong>Technos :</strong> HTML, CSS, Bootstrap</p>
+          <a href="#" class="btn btn-sm btn-red-custom">Voir le projet</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="bg-dark-custom rounded shadow-sm p-4 h-100">
+          <h5 class="text-red-custom mb-2"><i class="bi bi-folder-fill icon"></i> Blog Vibe Coding</h5>
+          <p>Un blog technique pour partager des astuces et tutoriels sur le développement web.</p>
+          <p class="mb-2"><strong>Technos :</strong> HTML, CSS, JavaScript</p>
+          <a href="#" class="btn btn-sm btn-red-custom">Voir le projet</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="bg-dark-custom rounded shadow-sm p-4 h-100">
+          <h5 class="text-red-custom mb-2"><i class="bi bi-folder-fill icon"></i> Mini-site WordPress</h5>
+          <p>Un mini-site vitrine réalisé avec WordPress pour un client fictif.</p>
+          <p class="mb-2"><strong>Technos :</strong> WordPress, Bootstrap</p>
+          <a href="#" class="btn btn-sm btn-red-custom">Voir le projet</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-dark-custom text-center py-3 border-top border-secondary">
+    <span class="text-muted small">&copy; 2024 Adjinda Donald. Tous droits réservés.</span>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

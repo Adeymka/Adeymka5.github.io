@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV - Jurgen Hideni</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #121212;
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .bg-dark-custom {
+      background-color: #1e1e1e;
+    }
+
+    .text-red-custom {
+      color: #f4373c;
+    }
+
+    .btn-red-custom {
+      background-color: #f4373c;
+      border: none;
+    }
+
+    .btn-red-custom:hover,
+    .btn-red-custom:focus {
+      background-color: #c82c31;
+    }
+
+    .profile-pic {
+      border-radius: 50%;
+      border: 4px solid #f4373c;
+      max-width: 160px;
+      max-height: 160px;
+      object-fit: cover;
+    }
+
+    .section-header {
+      background-color: #f4373c;
+      color: white;
+      border-radius: 0 20px 20px 0;
+      padding: 6px 20px;
+      font-weight: 600;
+      width: fit-content;
+      margin-bottom: 1.2rem;
+    }
+
+    .icon {
+      color: #f4373c;
+      margin-right: 8px;
+      font-size: 1.25rem;
+      vertical-align: middle;
+    }
+
+    /* Override bootstrap nav link active black bg pink text style */
+    .nav-link.active {
+      color: #f4373c !important;
+    }
+
+    a.text-red-custom:hover {
+      color: #c82c31 !important;
+      text-decoration: none;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 992px) {
+      .section-header {
+        border-radius: 0 0 20px 20px;
+        padding: 6px 15px;
+      }
+    }
+
+    .footer-contact-btn {
+      min-width: 120px;
+    }
+  </style>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom px-3">
+    <a class="navbar-brand text-red-custom fw-bold d-flex align-items-center" href="#">
+      <i class="bi bi-cpu"></i>
+      <span class="ms-2">ADJ</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav text-uppercase fw-semibold">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="project.html">Projets</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main CV container -->
+  <main class="container my-5">
+    <div class="row bg-dark-custom rounded shadow-sm overflow-hidden">
+      <!-- Left panel -->
+      <aside class="col-lg-3 col-md-4 p-4 border-end border-secondary d-flex flex-column align-items-center text-center">
+        <img src="image.jpg" alt="Portrait d'Adjinda Donald" class="profile-pic mb-3" />
+        <h3 class="text-white">Adjinda Donald</h3>
+        <span class="btn btn-sm btn-outline-light mb-4">Développeur Frontend</span>
+        <div class="w-100 text-start">
+          <p class="mb-2"><i class="bi bi-envelope-fill icon"></i> <a href="mailto:adjindaadeymkadonald@gmail.com" class="text-red-custom">adjindaadeymkadonald@gmail.com</a></p>
+          <p class="mb-2"><i class="bi bi-telephone-fill icon"></i> +229 01 56 39 25 67</p>
+          <p class="mb-2"><i class="bi bi-geo-alt-fill icon"></i> Abomey-Calavi, Bénin</p>
+          <p class="mb-0"><i class="bi bi-linkedin icon"></i> <a href="https://www.linkedin.com/in/adeymka-donald-adjinda-919b572ba" class="text-red-custom" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+        </div>
+      </aside>
+
+      <!-- Center panel -->
+      <section class="col-lg-6 col-md-8 p-4">
+        <div class="section-header">Résumé</div>
+        <!-- Profile -->
+        <div class="mb-4">
+          <h5 class="text-red-custom"><i class="bi bi-person-fill icon"></i> Profil</h5>
+          <p>
+            Développeur Frontend motivé et passionné, avec une forte capacité d’adaptation aux technologies émergentes. Formé au développement web à l’EIG Bénin, je maîtrise les langages fondamentaux comme HTML, CSS, Bootstrap et j’ai des bases solides en WordPress. Curieux et axé sur la pratique, je suis engagé à évoluer constamment avec les outils du moment et à devenir un expert dans le domaine du front-end. Doté d’un bon esprit d’équipe et d’une créativité naturelle, je suis prêt à relever les défis du développement moderne.
+          </p>
+        </div>
+        <!-- Education -->
+        <div class="mb-4">
+          <h5 class="text-red-custom"><i class="bi bi-mortarboard-fill icon"></i> Formation</h5>
+          <ul class="list-unstyled small">
+            <li><strong>Développement Web, EIG Bénin</strong> <br><small>En cours (Diplôme prévu : 2026)</small></li>
+            <li><strong>Licence en Psychologie, Université d’Abomey-Calavi (UAC)</strong> <br><small>Prévu : 2025</small></li>
+            <li><strong>Baccalauréat série D</strong> <br><small>Obtenu</small></li>
+          </ul>
+        </div>
+        <!-- Work Experience -->
+        <div>
+          <h5 class="text-red-custom"><i class="bi bi-briefcase-fill icon"></i> Expérience professionnelle</h5>
+          <ul class="list-unstyled small">
+            <li>Aucune expérience professionnelle officielle pour le moment, mais disponible pour des stages, projets freelance ou missions d’apprentissage.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Right panel -->
+      <aside class="col-lg-3 bg-dark-custom border-start border-secondary p-4 d-flex flex-column justify-content-between">
+        <div>
+          <!-- Languages -->
+          <div class="mb-4">
+            <h5 class="text-red-custom"><i class="bi bi-translate icon"></i> Langues</h5>
+            <p><strong>Français</strong> — Bon niveau</p>
+            <p><strong>Anglais</strong> — Débutant</p>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="mb-4">
+            <h5 class="text-red-custom"><i class="bi bi-people-fill icon"></i> Soft Skills</h5>
+            <ul class="list-unstyled small mb-0">
+              <li>Esprit d’équipe</li>
+              <li>Adaptabilité</li>
+              <li>Créativité</li>
+            </ul>
+          </div>
+
+          <!-- Technical Skills -->
+          <div class="mb-4">
+            <h5 class="text-red-custom"><i class="bi bi-terminal-fill icon"></i> Technical Skills</h5>
+            <ul class="list-unstyled small mb-0">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>JavaScript (bases)</li>
+              <li>WordPress (bases)</li>
+              <li>Responsive design</li>
+              <li>Environnement vibe coding (pratique personnelle)</li>
+            </ul>
+          </div>
+        </div>
+        <!-- GitHub -->
+        <div>
+          <!-- Optionally, add a GitHub section if you want -->
+        </div>
+      </aside>
+    </div>
+
+    <!-- Footer Call to Action -->
+    
+  </main>
+
+  <!-- Footer small with icons -->
+  <footer class="bg-dark-custom text-center py-3 border-top border-secondary">
+    <a href="#" class="text-red-custom mx-3" aria-label="Instagram" title="Instagram"><i class="bi bi-instagram"></i></a>
+    <a href="#" class="text-red-custom mx-3" aria-label="Facebook" title="Facebook"><i class="bi bi-facebook"></i></a>
+    <a href="#" class="text-red-custom mx-3" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
